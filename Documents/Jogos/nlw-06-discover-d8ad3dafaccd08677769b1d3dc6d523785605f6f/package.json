@@ -1,0 +1,20 @@
+{
+  "name": "nlw-06-discover-d8ad3dafaccd08677769b1d3dc6d523785605f6f",
+  "version": "1.0.0",
+  "description": "Projeto desenvolvido para gerenciar perguntas anônimas de usuários direcionadas ao dono da página. Projeto desenvolvido na semana NLW Rocketseat na missão disconver",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "nodemon src/server.js",
+    "init-db": "node src/db/init.js"
+  },
+  "keywords": [],
+  "author": "Thiago Augusto",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.12",
+    "sqlite": "^4.0.23",
+    "sqlite3": "^5.0.2"
+  }
+}
